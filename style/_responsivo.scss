@@ -1,0 +1,140 @@
+@media screen and (max-width: 500px) {
+  
+   
+   /*--------------------Menu---------------------*/
+      .menu {
+         display: none;
+      }
+
+   /*--------------------Conteúdo Principal---------------------*/   
+
+      .conteudo__principal{
+         margin: 0;
+         padding: 0;
+         flex-direction: column;
+         text-align: center;
+         width: 100%;
+
+         /*--------------------Info---------------------*/   
+         .info {
+            padding: 3em;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            h1{
+               font-size: 2.50rem;
+            }
+            
+            p{
+               font-size: 1.50rem;
+            }
+            .btn-falecomigo{
+               width: 80%;
+               padding: 2em;
+            }
+         }
+
+         img{
+            width: 100%;
+         }
+      } 
+      
+
+
+   /*--------------------Serviços---------------------*/  
+   .servicos{
+
+       /*--------------------Container---------------------*/  
+    .container{
+      width: 100%;
+      h3{
+         text-align: center;
+      }
+      /*--------------------span---------------------*/  
+      span{
+
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         margin: 0;
+         
+         h4{
+            text-align: center;
+         }
+         p{
+            text-align: center;
+         }
+         .card{
+            width: 100%;
+         }
+         
+      }
+
+      /*--------------------Botão---------------------*/  
+      .btn-orcamento{
+         text-align: center;
+         padding: 3em;
+         width: 100%;
+      } 
+    }
+   }
+
+   /*--------------------Sobre mim--------------------*/
+
+   .sobre-mim{
+      width: 100%;
+      flex-direction: column;
+      img{
+         width: 80%;
+      }
+      div{
+         align-items: center;
+         text-align: center;
+         width: 80%;
+         padding-bottom: 3em;
+      }
+    }
+
+    .formacao{
+      .container_formacao{
+         width: 100vh;
+         .formacao__facul{
+            .card__formacao{
+               .info__card{
+                  img{
+                     width: 5em;
+                  }
+                  .curso{
+                     
+                     gap: 0;
+                     flex-direction: column;
+                     span{
+                        width: 100%;
+                        padding: 0;
+                     }
+         
+                  }
+
+               }
+               
+            }
+         }
+      }
+    }
+    .contato{
+      .container__contato{
+         width: 100%;
+         h4{
+            text-align: center;
+            width: 100%;
+
+         }
+         .card__container{
+            width: 100%;
+         }
+      }
+   } 
+
+}
+

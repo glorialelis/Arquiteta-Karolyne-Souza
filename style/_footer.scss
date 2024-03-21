@@ -1,0 +1,12 @@
+@use '../abstract/variaveis';
+
+footer{
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p{
+        font-size: .80em;
+        color: variaveis.$cor-terciaria;
+    }
+}

@@ -1,0 +1,68 @@
+@use '../abstract/variaveis';
+
+.formacao{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .container_formacao{
+        background-color: #4F584E;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 90%;
+        gap: 5em;
+        padding: 5em;
+        border-radius: 15px;
+        h4{
+            font-size: 2em;
+            color: white;
+        }
+        .formacao__facul{
+            display: flex;
+            flex-direction: column;
+            gap: 4em;
+
+            .card__formacao{
+                display:flex;
+                align-items: center;
+                gap: 1em;
+                img{
+                width: 1.50em;
+                }
+                .info__card{
+                    display:flex;
+                    flex-direction: column;
+                    gap: .50em;
+                    .data{
+                        background-color: variaveis.$cor-secundaria;
+                        padding: .30em;
+                        border-radius: 20px;
+                        color: variaveis.$cor-principal;
+                        font-weight: 700;
+                        width: auto;
+                        }
+                        .curso{
+                            display: flex;
+                            align-items: end;
+                            gap: .50em;
+                            color: variaveis.$cor-terciaria;
+                            font-weight: 600;
+                            font-size: 1.20em;
+                            span{
+                                font-size: .80em;
+                                color: variaveis.$cor-secundaria;
+                            }
+                        }
+
+                }
+                
+            }
+        }
+    }
+}
+    

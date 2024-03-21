@@ -1,0 +1,43 @@
+@use '../abstract/variaveis';
+
+.menu{
+    padding-top: 1.50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .menu__lista {
+        display: flex;
+        list-style: none;
+        gap: 4em;
+        li{
+            a{
+                position: relative;
+                color: variaveis.$cor-terciaria;
+                text-decoration: none;
+                padding: 0 10px;
+                &:after{
+                    content: "";
+                    position: absolute;
+                    background-color: variaveis.$cor-secundaria;
+                    height: 3px;
+                    width: 0;
+                    left: 0;
+                    bottom: -10px;
+                    transition: 0.3s;
+            
+                }
+                &:hover{
+                    color: white;
+                }
+                &:hover:after{
+                    width: 100%;
+                    
+                }
+                
+            } 
+            
+        }
+        
+    
+    }
+}

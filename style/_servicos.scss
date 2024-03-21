@@ -1,0 +1,121 @@
+@use '../abstract/variaveis';
+
+.servicos{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: auto;
+        width: 90%;
+        gap: 5em;
+        padding: 2em;
+        border-radius: 15px;
+        background-color:#4F584E;
+        padding: 4em;
+        h3{
+            font-size: 2em;
+            color:white;
+        }
+        span {
+            display:flex;
+            gap: 3em;
+            flex-wrap: wrap; // Quebra a linha
+            flex-direction: row;
+            .card{
+                padding: 2em;
+                height: 15em;
+                width: 30%;
+                background-color: #5B645A;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border-radius: 20px;
+                gap: 1.50em;
+
+                h4{
+                    font-size: 1.50em;
+                    color:variaveis.$cor-secundaria;
+                }
+                p{
+                    font-size: 1em;
+                    color:variaveis.$cor-terciaria;
+                    font-weight: 600;
+                }
+
+                &:hover{
+                    transform: translateY(-20px);
+                }
+            }
+        }
+
+        .btn-orcamento{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 4em;
+            width: 50%;
+            border-radius: 20px;
+            background: variaveis.$gradiente;
+           
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1.50rem;
+                font-weight: 500;
+
+            }
+
+            &:hover{
+                background: variaveis.$gradiente-secundario;
+                transition: 0.3s;
+                transform: translateY(-5px);
+                
+            }
+                
+        }
+        
+
+    }
+    
+
+}
+
+/*.servicos{
+width: 100%;
+    container{
+       background-color: #4F584E;
+       padding: 2em;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     flex-direction: column;
+     height: auto;
+     width: 90%;
+     border-radius: 20px;
+     
+     gap: 3em;
+
+span {
+    display: flex;
+    flex-wrap: wrap; // Quebra a linha
+    flex-direction: row;
+    }
+
+    h3 {
+        
+        color: variaveis.$cor-terciaria;
+        font-size: 2rem;
+    }
+    
+
+    }
+    
+}*/

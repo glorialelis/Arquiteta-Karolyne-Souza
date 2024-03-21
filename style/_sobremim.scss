@@ -1,0 +1,30 @@
+@use '../abstract/variaveis';
+.sobre-mim{
+    
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 35%;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        width: 30%;
+        h4{
+            color: white;
+            font-size: 2em;
+        }
+        span{
+            border-top: 2px solid white;
+            width: 3em;
+           
+        }
+        p{
+            font-size: 1em;
+            color:variaveis.$cor-terciaria;
+            font-weight: 600;
+        }
+    }
+}
