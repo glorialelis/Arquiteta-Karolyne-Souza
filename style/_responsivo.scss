@@ -138,3 +138,106 @@
 
 }
 
+@media screen and (max-width: 360px) {
+   .conteudo__principal {
+      width: 100vw;
+      flex-direction: column-reverse;
+      gap:0;
+      .info{
+         h2{
+            font-size: 1.30em;
+         }
+         h1{
+            font-size: 2em;
+         }
+         p{
+            font-size: 1.30em;
+         }
+
+         .btn-falecomigo{
+            width: 100%;
+            a{
+               font-size: 1.50rem;
+            }
+         }
+      }
+   }
+
+    /*--------------------Serviços---------------------*/  
+    .servicos{
+      width: 100vw;
+
+      /*--------------------Container---------------------*/ 
+      .container{
+         width: 100vw;
+         
+         h3{
+            font-size: 1.50em;
+         }
+         span{
+            .card{
+               height: auto;
+               padding: 1em;
+               h4{
+                  font-size: 1.30em;
+                  
+   
+               }
+               
+            }
+         }
+         .btn-orcamento{
+            padding: 0;
+
+            a{
+               font-size: 1rem;
+            }
+            
+         }
+
+         
+      }
+   }
+
+
+   .contato{
+      .container__contato{
+         h4{
+            width: 120%;
+            font-size: 1.50rem;
+         }
+
+      }
+      
+   }
+   .formacao{
+      
+      .container_formacao{
+         padding: 2em;
+         h4{
+            font-size: 2rem;
+         }
+         .formacao__facul{
+            
+            width: 100%;
+            .card__formacao{
+               
+               
+               width: 100%;
+               .info__card{
+                  
+                  .data{
+                     font-size: .75rem;
+                  }
+                  .curso{
+                     font-size: 1rem;
+
+                  }
+               }
+            }
+         }
+      }  
+   }
+
+
+}

@@ -451,4 +451,72 @@ footer p {
   .contato .container__contato .card__container {
     width: 100%;
   }
+}
+@media screen and (max-width: 360px) {
+  .conteudo__principal {
+    width: 100vw;
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .conteudo__principal .info h2 {
+    font-size: 1.3em;
+  }
+  .conteudo__principal .info h1 {
+    font-size: 2em;
+  }
+  .conteudo__principal .info p {
+    font-size: 1.3em;
+  }
+  .conteudo__principal .info .btn-falecomigo {
+    width: 100%;
+  }
+  .conteudo__principal .info .btn-falecomigo a {
+    font-size: 1.5rem;
+  }
+  /*--------------------Serviços---------------------*/
+  .servicos {
+    width: 100vw;
+    /*--------------------Container---------------------*/
+  }
+  .servicos .container {
+    width: 100vw;
+  }
+  .servicos .container h3 {
+    font-size: 1.5em;
+  }
+  .servicos .container span .card {
+    height: auto;
+    padding: 1em;
+  }
+  .servicos .container span .card h4 {
+    font-size: 1.3em;
+  }
+  .servicos .container .btn-orcamento {
+    padding: 0;
+  }
+  .servicos .container .btn-orcamento a {
+    font-size: 1rem;
+  }
+  .contato .container__contato h4 {
+    width: 120%;
+    font-size: 1.5rem;
+  }
+  .formacao .container_formacao {
+    padding: 2em;
+  }
+  .formacao .container_formacao h4 {
+    font-size: 2rem;
+  }
+  .formacao .container_formacao .formacao__facul {
+    width: 100%;
+  }
+  .formacao .container_formacao .formacao__facul .card__formacao {
+    width: 100%;
+  }
+  .formacao .container_formacao .formacao__facul .card__formacao .info__card .data {
+    font-size: 0.75rem;
+  }
+  .formacao .container_formacao .formacao__facul .card__formacao .info__card .curso {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=style.css.map */
